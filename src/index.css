@@ -76,6 +76,14 @@ text-align: center;
   width: 125px;
   align-items: flex-start ;
 }
+.contador{
+  font-size:15px;
+  margin-top: 5px;
+}
+
+.contador span{
+  color: #BD1D01;
+}
 
 .bloco-fotos {
   display: flex;
@@ -234,6 +242,41 @@ text-align: center;
   font-size: 40px;
 } 
 
+.foto-code{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: rgb(19, 33, 158);
+}
+
+.foto-code1{
+  width: 60%;
+}
+
+.button-code {
+  box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.75);
+  margin-top: 20px;
+  padding: 15px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: rgb(19, 33, 158);
+  color: rgba(250, 235, 215, 0.856);
+}
+
+.button-code:hover {
+  border: solid #121d3d 1px;
+  background: #20336d;
+  background-image: -webkit-linear-gradient(top, #121d3d, #121d3d);
+  background-image: -moz-linear-gradient(top, #121d3d, #121d3d);
+  background-image: -ms-linear-gradient(top, #121d3d, #121d3d);
+  background-image: -o-linear-gradient(top, #121d3d, #121d3d);
+  background-image: -webkit-gradient(top, #121d3d, #121d3d);
+  text-decoration: none;
+}
+
 .bloco-contato{
   width: 100%;
   display: flex;
@@ -291,6 +334,12 @@ text-align: center;
   .titulo{
     font-size: 14px;
   }
+
+  .contador{
+    font-size:9px;
+    margin-top: 0px;
+  }
+  
   .escudo{
     width: 80px;
     align-items: flex-start ;
@@ -460,6 +509,31 @@ text-align: center;
   width:100%;
   height:100%;
 }
+
+.button-code {
+  box-shadow: 14px 10px 5px 0px rgba(0,0,0,0.75);
+  margin-top: 5px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: rgb(19, 33, 158);
+  color: rgba(250, 235, 215, 0.856);
+  font-size: 6px;
+}
+
+.foto-code h3{
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-size: 10px;
+  color: rgb(19, 33, 158);
+}
+
+.foto-code1{
+  width: 40%;
+}
+
 
 .div-contato{
   display: flex;

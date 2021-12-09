@@ -1,9 +1,11 @@
 import React from 'react';
+import Qrcode from './Qrcode';
 
 class Contato extends React.Component {
   render() {
     return (
         <>
+        <Qrcode />
         <h2 id="contato">Venha Fazer Acontecer Junto a Gente!!</h2>
         <div className="div-contato">
           <h4 className="texto-contato">
