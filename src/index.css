@@ -265,6 +265,7 @@ text-align: center;
   justify-items: center;
   background-color: rgb(19, 33, 158);
   color: rgba(250, 235, 215, 0.856);
+  cursor: pointer;
 }
 
 .button-code:hover {
