@@ -511,7 +511,7 @@ text-align: center;
 }
 
 .button-code {
-  box-shadow: 14px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
   margin-top: 5px;
   padding: 10px;
   text-align: center;
@@ -519,7 +519,7 @@ text-align: center;
   justify-items: center;
   background-color: rgb(19, 33, 158);
   color: rgba(250, 235, 215, 0.856);
-  font-size: 6px;
+  font-size: 8px;
 }
 
 .foto-code h3{
