@@ -8,7 +8,7 @@ class Header extends React.Component {
   render() {
     return (
       <header className="header-component">
-        <nav className="header-component">      
+        <nav className="menu-nav">      
           <Link
             className="link-to-nav"
             to="historia"
@@ -66,13 +66,13 @@ class Header extends React.Component {
           </Link> */}
         </nav>
         <div className="titulo-escudo">
-          <img className="escudo" src={ ESCUDO_ESQUERDA } alt="" />
+          <img className="escudo1" src={ ESCUDO_ESQUERDA } alt="" />
           <div className="titulo">
             <h2>NATAL GALÁCTICOS</h2>
             <h5>Fazer o bem sem olhar a quem!</h5>
             <Contador />    
           </div>
-          <img className="escudo" src={ ESCUDO_DIREITA } alt="" />
+          <img className="escudo2" src={ ESCUDO_DIREITA } alt="" />
         </div>
       </header>
     );
