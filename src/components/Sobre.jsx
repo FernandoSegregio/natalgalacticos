@@ -14,7 +14,7 @@ class Sobre extends React.Component {
           <h2 id="sobre">Quem Somos:</h2>
           <h3>
             Somos um grupo de amigos que há mais de 15 anos, formamos um time de
-            futebol com intuito nos reunirmos aos finais de semana, com com o intuito 
+            futebol com intuito nos reunirmos aos finais de semana, com o intuito 
             resenhar e jogar bola. Com o tempo, a ideia do
             Galácticos como um instrumento social foi crescendo naturalmente em
             cada um dos participantes, e nasceu, daí, os nossos diversos projetos
