@@ -6,16 +6,17 @@ import Contador from './Contador';
 
 class Header extends React.Component {
   render() {
+
     return (
       <header className="header-component">
-        <nav className="menu-nav">      
+        <nav className="menu-nav">
           <Link
             className="link-to-nav"
             to="historia"
             spy
             smooth
-            offset={ -50 }
-            duration={ 5000 }
+            offset={-50}
+            duration={5000}
           >
             COMO SURGIU
 
@@ -25,8 +26,8 @@ class Header extends React.Component {
             to="proposito"
             spy
             smooth
-            offset={ -50 }
-            duration={ 5000 }
+            offset={-50}
+            duration={5000}
           >
             NOSSO PROPÓSITO
 
@@ -36,8 +37,8 @@ class Header extends React.Component {
             to="acoes"
             spy
             smooth
-            offset={ -50 }
-            duration={ 5000 }
+            offset={-50}
+            duration={5000}
           >
             NOSSAS AÇÕES
 
@@ -47,33 +48,35 @@ class Header extends React.Component {
             to="sobre"
             spy
             smooth
-            offset={ -50 }
-            duration={ 5000 }
+            offset={-50}
+            duration={5000}
           >
             QUEM SOMOS
 
           </Link>
-          {/* <Link
-            className="link-to-nav"
-            to="contato"
-            spy
-            smooth
-            offset={ 200 }
-            duration={ 5000 }
-          >
-            NATAL 2021
 
-          </Link> */}
         </nav>
         <div className="titulo-escudo">
-          <img className="escudo1" src={ ESCUDO_ESQUERDA } alt="" />
+          <img className="escudo1" src={ESCUDO_ESQUERDA} alt="" />
           <div className="titulo">
             <h2>NATAL GALÁCTICOS</h2>
             <h5>Fazer o bem sem olhar a quem!</h5>
-            <Contador />    
+            <Contador />
           </div>
-          <img className="escudo2" src={ ESCUDO_DIREITA } alt="" />
+          <img className="escudo2" src={ESCUDO_DIREITA} alt="" />
         </div>
+        <audio
+          data-testid="audio-component"
+          src="https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/41/58/36/4158361d-9967-dbad-a49b-d49a7e823b1e/mzaf_9759408052324659026.plus.aac.p.m4a"
+          controls
+          autoPlay={true}
+        >
+          <track kind="captions" />
+          O seu navegador não suporta o elemento
+          {' '}
+          <code>audio</code>
+          .
+        </audio>
       </header>
     );
   }

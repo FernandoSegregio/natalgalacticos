@@ -37,13 +37,19 @@ html {
 
 .header-component {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: flex-end;
   background-color: rgb(19, 33, 158);
   padding-bottom: 25px;
   width: 100%;
   flex-wrap: wrap;
-  margin: 0 8%;
+  margin: -14px 8%;
+}
+
+.header-component > audio{
+  margin-top: 10px;
+  width: 185px;
+ height: 20px;
 }
 
 .menu-nav {
