@@ -70,7 +70,7 @@ class Header extends React.Component {
           src="https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/41/58/36/4158361d-9967-dbad-a49b-d49a7e823b1e/mzaf_9759408052324659026.plus.aac.p.m4a"
           controls
           autoPlay
-          loop
+
         >
           <track kind="captions" />
           O seu navegador não suporta o elemento
