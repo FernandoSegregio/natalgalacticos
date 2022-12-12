@@ -18,7 +18,7 @@ export default class Contador extends Component {
     render() {
         return (
             <div className='contador'>
-           <h3>Faltam <span>{ this.contadorNatal() }</span> dia(s) para o Natal!</h3>         
+           <h3>Faltam <span>{ this.contadorNatal() }</span> { this.contadorNatal() > 1 ? "dias" : "dia"} para o Natal!</h3>         
             </div>
         )
     }
