@@ -601,6 +601,8 @@ html {
   .menu-nav {
     gap: 6px;
     padding: 16px 12px;
+    flex-wrap: nowrap;
+    text-align: center;
   }
 
   .link-to-nav {
