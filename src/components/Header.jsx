@@ -60,6 +60,7 @@ class Header extends React.Component {
           <img className="escudo1" src={ESCUDO_ESQUERDA} alt="" />
           <div className="titulo">
             <h2>NATAL GALÁCTICOS</h2>
+            <h5>Há mais de 10 anos mudando o Natal de milhares de crianças!</h5>
             <h5>Fazer o bem sem olhar a quem!</h5>
             <Contador />
           </div>
