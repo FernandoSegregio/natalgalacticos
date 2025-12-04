@@ -25,7 +25,7 @@
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
   },
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "eslintConfig": {
     "extends": [
