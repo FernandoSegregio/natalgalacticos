@@ -11,7 +11,7 @@ class Qrcode extends React.Component {
            <h3>Para fazer sua contribuição:</h3>
            <h4>Leia o QR Code, ou clique no botão abaixo</h4> 
            <h4>para abrir em seu App Financeiro</h4> 
-           <a href="https://nubank.com.br/pagar/swdn1/r8FHsXH45J"  target="_blank" rel="noreferrer"><button className="button-code"type="button">QUERO CONTRIBUIR</button></a>
+           <a href="https://nubank.com.br/cobrar/swdn1/693c6c9b-1d58-47f2-ab64-489662e780ac"  target="_blank" rel="noreferrer"><button className="button-code"type="button">QUERO CONTRIBUIR</button></a>
         </div>
     );
   }
